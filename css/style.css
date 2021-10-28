@@ -67,7 +67,7 @@ body > header img {
 }
 
 @media screen and (min-width: 850px){
-
+ 
   body > header, .nav_links{
     display:flex;
     /* align-items:flex-start; */
@@ -75,24 +75,28 @@ body > header img {
     justify-content: space-between;
   }
 
-  .nav_links {
-    display:flex;
-    align-items:flex-end;
-  }
-
-
   body > header {
-    position: sticky;
+    position:sticky;
     top:0;
     left:0;
+    width: 100%;
   }
 
   .card {
     display:flex;
     flex-basis: 250px;
+    flex-direction: column;
   }
 
+
+  .card > header {
+    display:flex;
+    justify-content: flex-start;
+  }
+
+
 }
+
 
 
 
