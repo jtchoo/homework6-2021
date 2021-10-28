@@ -9,8 +9,8 @@ body{
     flex-direction: column;
   }
 
-  .nav:visited {
-    color:inherit;
+  a:link,a:visited {
+    color:blue;
   }
 
 
